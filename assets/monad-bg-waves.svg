@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1440 900" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="bh" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="80"/>
+    </filter>
+    <filter id="bm" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="bl" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- Base fill -->
+  <rect width="1440" height="900" fill="#fefefe"/>
+
+  <!-- Column 1 -->
+  <ellipse cx="-40" cy="460" rx="380" ry="560" fill="#CBC5FF" filter="url(#bh)" opacity="0.85"/>
+  <ellipse cx="160" cy="450" rx="230" ry="400" fill="white" filter="url(#bm)" opacity="0.9"/>
+  <ellipse cx="145" cy="450" rx="210" ry="360" fill="#D5D0FF" filter="url(#bl)" opacity="0.55"/>
+
+  <!-- Column 2 -->
+  <ellipse cx="390" cy="460" rx="380" ry="560" fill="#CBC5FF" filter="url(#bh)" opacity="0.85"/>
+  <ellipse cx="590" cy="450" rx="230" ry="400" fill="white" filter="url(#bm)" opacity="0.9"/>
+  <ellipse cx="575" cy="450" rx="210" ry="360" fill="#D5D0FF" filter="url(#bl)" opacity="0.55"/>
+
+  <!-- Column 3 -->
+  <ellipse cx="820" cy="460" rx="380" ry="560" fill="#CBC5FF" filter="url(#bh)" opacity="0.85"/>
+  <ellipse cx="1020" cy="450" rx="230" ry="400" fill="white" filter="url(#bm)" opacity="0.9"/>
+  <ellipse cx="1005" cy="450" rx="210" ry="360" fill="#D5D0FF" filter="url(#bl)" opacity="0.55"/>
+
+  <!-- Column 4 -->
+  <ellipse cx="1250" cy="460" rx="380" ry="560" fill="#CBC5FF" filter="url(#bh)" opacity="0.85"/>
+  <ellipse cx="1450" cy="450" rx="230" ry="400" fill="white" filter="url(#bm)" opacity="0.9"/>
+</svg>
